@@ -49,6 +49,7 @@ const ShoppingList = {
 
 function createShoppingList() {
   const storage = Object.create(ShoppingList);
+  console.log(storage);
   storage.items = {};
   return storage;
 }
